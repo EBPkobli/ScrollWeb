@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container .imgCont
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    text-indent: 1px;   
+}
+.container .imgCont:first-child{
+    position: absolute;
+}

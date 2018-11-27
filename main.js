@@ -99,7 +99,7 @@ $(document).ready(function(){
             opacity: '0',
             textIndent: 0.5
         },{
-            duration : 2000,
+            duration : 1000,
             step: function(now)
             {
                 oncekiActive.css('-webkit-transform','scale('+now+')'); 
@@ -112,7 +112,7 @@ $(document).ready(function(){
         sonrakiActive.animate({
             top: "0px",
             opacity: '1'
-        },2000)
+        },1000)
         indexImg += (ileriGeri >=1) ? 1: -1;
     }
 
